@@ -106,5 +106,5 @@ const privateKeys = readPrivateKeys('private_keys.txt')
 
 for(let privateKey of privateKeys) {
     await getTotalTokens(privateKey);
-    await sleep(0.1 * 1000);
+    await sleep(0.5 * 1000);
 }
